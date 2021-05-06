@@ -1,0 +1,21 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {.cards {
+  flex-direction: column;
+  width: 90%;
+  }
+}
+
+.card {
+  background-color: #F6E8DA;
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 10px 10px 10px;
+  flex: 1 1 1;
+}

@@ -1,0 +1,109 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url("components/cards.css");
+@import url("components/buttons.css");
+
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+h1 {
+  font-size: 40px;
+  text-shadow: 1px 1px 3px rgb(0 0 0 / 20%);
+}
+
+h2 {
+  font-size: 20px;
+  margin: 30px 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center
+}
+
+.banner {
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+}
+
+.footer {
+  background-color: #485166;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p, .footer i {
+  color: white;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer i {
+  font-size: 20px;
+}
+
+.banner-container {
+  margin: 50px auto;
+  list-style: none;
+}
+
+.card-container {
+  width: 700px;
+  margin: 50px auto;
+  list-style: none;
+}
+
+@media (max-width: 800px) {.card-container {
+  width: 500px;
+  }
+}
+
+@media (max-width: 500px) {.card-container {
+  width: 300px;
+  }
+}
+
+.footer-container {
+  margin: 50px auto;
+  list-style: none;
+}
+
+.container-padding {
+  padding-bottom: 50px;
+}
+
+.footer-container > ul > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
